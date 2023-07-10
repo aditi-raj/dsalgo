@@ -1,4 +1,4 @@
-# infix to postfix
+#stack implementation
 
 class Stack:
 	def __init__(self):
@@ -16,6 +16,8 @@ class Stack:
 	def top(self): 
 		if self.isempty()==False:
 			return self.items[-1]
+
+#Conversion Problems using stack :
 
 # def infix_to_postfix(exp):
 #     obj=Stack()
